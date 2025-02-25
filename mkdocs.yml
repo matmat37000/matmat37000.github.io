@@ -44,5 +44,6 @@ nav:
 plugins:
   - blog
   - search
+  - optimize
 extra:
   generator: false
