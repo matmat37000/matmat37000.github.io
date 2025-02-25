@@ -5,6 +5,7 @@ categories:
   - Hello World
 authors:
   - mathiol
+  - mathchameleon
 ---
 
 # Hello world
