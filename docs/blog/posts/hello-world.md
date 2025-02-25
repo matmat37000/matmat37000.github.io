@@ -10,7 +10,7 @@ authors:
 
 # Hello world
 
-This is the first blog of this site !
+This is the first post of this site !
 
 I will use this site to post about my projects, add documentation for some future projects and present my projects.
 
