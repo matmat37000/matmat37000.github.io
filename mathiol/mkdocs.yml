@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Mathiol
+site_url: https://blog.mathiol.site/
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - About: about.md
