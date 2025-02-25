@@ -1,17 +1,31 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Hi, I'm a 17-year-old French developer who loves games and makes games. I started programming when I was 11 years old. My first game and project was on Scratch, but I quickly switched to Python and C# for my projects in general, and to GDScript with Godot Engine for my games. I already have a very solid foundation in Python and have started transitioning from GDScript to C#.
 
-## Commands
+# Stats
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+| GitHub Stats 📊 | Top Languages 💬 |
+|-----------------|-----------------|
+| [![Anurag's GitHub stats][stats-img]](https://github.com/anuraghazra/github-readme-stats) | ![Top Langs][langs-img] |
 
-## Project layout
+[stats-img]: https://github-readme-stats.vercel.app/api?username=matmat37000&show_icons=true&theme=transparent&hide_border=true
+[langs-img]: https://github-readme-stats.vercel.app/api/top-langs/?username=matmat37000&hide=javascript,css,scss,html&theme=transparent&hide_border=true
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+# Languages
+
+## Languages I know and use  
+
+- Python  
+- C#  
+- HTML / CSS / (Partial) JavaScript  
+- GDScript  
+
+## Languages I'm learning  
+
+- C++  
+- JavaScript  
+
+# How to reach me
+
+- **Discord:** matmat37000 (Mathiol)  
+- **Email:** <mathieu.bordieraupy@mathiol.site>  
