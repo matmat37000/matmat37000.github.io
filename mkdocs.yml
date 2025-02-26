@@ -1,5 +1,6 @@
 site_name: Mathiol
 site_url: https://blog.mathiol.site/
+site_author: Bordier-Aupy Mathieu
 theme:
   name: material
   logo: assets/logo.png
@@ -32,10 +33,13 @@ theme:
         name: Switch to system preference
   features:
     - navigation.tabs
+    - navigation.indexes
+    - navigation.tracking
     - navigation.sections
     - header.autohide
     - search.suggest
     - search.highlight
+    - toc.follow
 nav:
   - Home: index.md
   # - About: about.md
@@ -46,3 +50,6 @@ plugins:
   - search
 extra:
   generator: false
+markdown_extensions:
+  - toc:
+      permalink: true
