@@ -50,6 +50,9 @@ plugins:
   - search
 extra:
   generator: false
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/matmat37000
 markdown_extensions:
   - toc:
       permalink: true
