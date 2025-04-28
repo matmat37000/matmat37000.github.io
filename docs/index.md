@@ -14,8 +14,8 @@ Hi, I'm a 17-year-old French developer who loves games and makes games. I starte
 |-----------------|-----------------|
 | [![Anurag's GitHub stats][stats-img]](https://github.com/anuraghazra/github-readme-stats) | ![Top Langs][langs-img] |
 
-[stats-img]: https://github-readme-stats.vercel.app/api?username=matmat37000&show_icons=true&theme=transparent&hide_border=true
-[langs-img]: https://github-readme-stats.vercel.app/api/top-langs/?username=matmat37000&hide=javascript,css,scss,html&theme=transparent&hide_border=true
+[stats-img]: https://vercelapi.mathiol.site/api?username=matmat37000&show_icons=true&theme=transparent&hide_border=true
+[langs-img]: https://vercelapi.mathiol.site/api/top-langs/?username=matmat37000&hide=javascript,css,scss,html&theme=transparent&hide_border=true
 
 ## Languages
 
