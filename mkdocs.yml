@@ -3,8 +3,8 @@ site_url: https://blog.mathiol.site/
 site_author: Bordier-Aupy Mathieu
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: https://avatars.githubusercontent.com/u/68553121
+  favicon: https://avatars.githubusercontent.com/u/68553121
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
