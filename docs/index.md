@@ -10,9 +10,9 @@ Hi, I'm a 18-year-old French developer who loves cats and making games ✨. I st
 
 ### How to reach me  
 
-- **Discord:** matmat37000 (Mathiol)  
-- **Email:** mathieu.bordieraupy@gmail.com
-- **University Email:** mathieu.bordier-aupy@etu.univ-orleans.fr
+- **Discord:** [matmat37000 (Mathiol)](https://discordapp.com/users/717192192715915265)
+- **Email:** [mathieu.bordieraupy@gmail.com](mailto:mathieu.bordieraupy@gmail.com)
+- **University Email:** [mathieu.bordier-aupy@etu.univ-orleans.fr](mailto:mathieu.bordier-aupy@etu.univ-orleans.fr)
 
 #### Languages I know and use  
 
