@@ -42,6 +42,7 @@ theme:
     - toc.follow
 nav:
   - Home: index.md
+  - Projects: projects.md
   # - About: about.md
   - Blog:
       - blog/index.md
@@ -56,3 +57,8 @@ extra:
 markdown_extensions:
   - toc:
       permalink: true
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
