@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://blog.mathiol.com/</loc>
+         <lastmod>2026-02-15</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.mathiol.com/about/</loc>
+         <lastmod>2026-02-15</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.mathiol.com/projects/</loc>
+         <lastmod>2026-02-15</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.mathiol.com/blog/</loc>
+         <lastmod>2026-02-15</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.mathiol.com/blog/2025/02/25/hello/</loc>
+         <lastmod>2026-02-15</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.mathiol.com/blog/2025/02/25/hello-world/</loc>
+         <lastmod>2026-02-15</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.mathiol.com/blog/archive/2025/</loc>
+         <lastmod>2026-02-15</lastmod>
+    </url>
+    <url>
+         <loc>https://blog.mathiol.com/blog/category/hello-world/</loc>
+         <lastmod>2026-02-15</lastmod>
+    </url>
+</urlset>
