@@ -107,3 +107,10 @@
         display: none;
     }
 }
+.md-header__button {
+    width: auto;
+    
+    img {
+        border-radius: 100%;
+    }
+}

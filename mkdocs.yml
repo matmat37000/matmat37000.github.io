@@ -9,8 +9,8 @@ extra_css:
 
 theme:
   name: material
-  logo: https://avatars.githubusercontent.com/u/68553121
-  favicon: https://avatars.githubusercontent.com/u/68553121
+  logo: https://avatars.githubusercontent.com/u/68553121?s=128
+  favicon: https://avatars.githubusercontent.com/u/68553121?s=128
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
