@@ -19,12 +19,14 @@ Here you can find a list of all my projects. Private / unreleased projects will 
 | [YuzuToolbox](https://github.com/ZachAR3/YuzuToolbox) | 2024 | Contributor       | A GUI for installing and updating yuzu early access, in addition to some management tools and a mod manager. Written in C# with Godot Engine.                               |
 
 ## MLG
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/matmat37000/MLG)![GitHub top language](https://img.shields.io/github/languages/top/matmat37000/MLG) ![GitHub License](https://img.shields.io/github/license/matmat37000/MLG)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/matmat37000/MLG)
+![GitHub top language](https://img.shields.io/github/languages/top/matmat37000/MLG) 
+![GitHub License](https://img.shields.io/github/license/matmat37000/MLG)
 
 I'm in love with modding and one of my first modding projects was on a Unity game with `BepInEx` and `Harmony`. Then, I wanted to have `Harmony` in my game engine of choice, Godot, to allow people to mod my game with ease since I'm using C# and not GDScript, for which a mod loader already exists. **MLG** was born after some digging into the way Godot loads C# code and finding where I can inject my own logic.
 
 ### How it works
-The way it works is by hijacking the game's own C# generated DLL to load all my code from there. To accomplish this, I made an installer that copies the game DLL into another file, then it copies over the original with its own custom DLL with the same signature and entry point.  
+The way it works is by hijacki![GitHub top language](https://img.shields.io/github/languages/top/matmat37000/MLG)ng the game's own C# generated DLL to load all my code from there. To accomplish this, I made an installer that copies the game DLL into another file, then it copies over the original with its own custom DLL with the same signature and entry point.  
 From there, when Godot loads the DLL, I execute my own logic, then load the original game's DLL that we copied earlier into another scope to avoid conflicts with the DLL signature, and finally I call the original code to finish initializing Godot's C# runtime.
 
 For the moment, I can load custom scripts but the project isn't finished yet and needs more features to be usable by anyone.
@@ -33,7 +35,9 @@ For the moment, I can load custom scripts but the project isn't finished yet and
 This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
 ## cpp-tic-tac-toe
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/matmat37000/cpp-tic-tac-toe) ![GitHub top language](https://img.shields.io/github/languages/top/matmat37000/cpp-tic-tac-toe) ![GitHub License](https://img.shields.io/github/license/matmat37000/cpp-tic-tac-toe) 
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/matmat37000/cpp-tic-tac-toe) 
+![GitHub top language](https://img.shields.io/github/languages/top/matmat37000/cpp-tic-tac-toe) 
+![GitHub License](https://img.shields.io/github/license/matmat37000/cpp-tic-tac-toe) 
 
 This is a small, cross-platform project to refresh my memory on how to code in C++ and to set up a project with CMake. It first started as a small personal project but I decided to make it clean and to do the job to the end.
 
@@ -55,7 +59,8 @@ But I also used ANSI Esc to create an alternate buffer so the game runs in its o
 This project is licensed under the [Apache License v2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## voxy-backport
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/matmat37000/voxy-backport ) ![GitHub top language](https://img.shields.io/github/languages/top/matmat37000/voxy-backport )
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/matmat37000/voxy-backport ) 
+![GitHub top language](https://img.shields.io/github/languages/top/matmat37000/voxy-backport )
 
 This is a backport for MCRcortex's Voxy Minecraft mod. This project is more of a personal one for me and my friends, but I decided to make it public in case someone else might need it. It's not finished yet and it's pretty time-consuming, but with tools like [Linkie](https://linkie.shedaniel.dev/) I gain so much time replacing each of the mappings to Yarn (1.20.1) from Mojang (1.21+).
 
@@ -65,7 +70,9 @@ I'm currently still replacing each piece of code from Mojang mappings to the Yar
 This project is under [MCRcortex licence :material-copyright:](https://github.com/matmat37000/voxy-backport?tab=License-1-ov-file) (Original creator).
 
 ## microbits-cars
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/matmat37000/microbits-cars) ![GitHub top language](https://img.shields.io/github/languages/top/matmat37000/microbits-cars) ![GitHub License](https://img.shields.io/github/license/matmat37000/microbits-cars) 
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/matmat37000/microbits-cars)
+![GitHub top language](https://img.shields.io/github/languages/top/matmat37000/microbits-cars) 
+![GitHub License](https://img.shields.io/github/license/matmat37000/microbits-cars) 
 
 In 2025 I've participated in the competition Yes-We-Code with LIAGRE Mathéo where we built a remote-controlled car. We had to use MicroPython for this project and use the Micro:bit :material-registered-trademark: card.
 
