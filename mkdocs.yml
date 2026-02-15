@@ -1,6 +1,12 @@
+# Site configuration
 site_name: Mathiol
 site_url: https://blog.mathiol.com/
 site_author: Bordier-Aupy Mathieu
+
+# Theming
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   logo: https://avatars.githubusercontent.com/u/68553121
@@ -8,29 +14,25 @@ theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
-      primary: teal
-      accent: indigo
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
 
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: teal
-      accent: indigo
+      scheme: catppuccin-latte
       toggle:
-        icon: material/brightness-7
+        icon: material/lightbulb
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: teal
-      accent: indigo
+      scheme: catppuccin-macchiato
       toggle:
-        icon: material/brightness-4
+        icon: material/lightbulb-outline
         name: Switch to system preference
+
+  # MkDocs Material features
   features:
     - navigation.tabs
     - navigation.indexes
@@ -40,12 +42,15 @@ theme:
     - search.suggest
     - search.highlight
     - toc.follow
+
+# Pages in nav bar
 nav:
   - Home: index.md
   - Projects: projects.md
-  # - About: about.md
   - Blog:
       - blog/index.md
+
+# Plugin and extra
 plugins:
   - blog
   - search
@@ -61,4 +66,3 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
