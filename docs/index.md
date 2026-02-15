@@ -14,7 +14,7 @@ Hi, I'm a 18-year-old French developer who loves cats and making games ✨. I st
 - **Email:** [mathieu.bordieraupy@gmail.com](mailto:mathieu.bordieraupy@gmail.com)
 - **University Email:** [mathieu.bordier-aupy@etu.univ-orleans.fr](mailto:mathieu.bordier-aupy@etu.univ-orleans.fr)
 
-#### Languages I know and use  
+### Languages I know and use  
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
@@ -22,7 +22,7 @@ Hi, I'm a 18-year-old French developer who loves cats and making games ✨. I st
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-#### Languages I'm learning  
+### Languages I'm learning  
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-%23000000.svg?e&logo=rust&logoColor=white&style=for-the-badge)
