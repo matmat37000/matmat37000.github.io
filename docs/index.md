@@ -37,8 +37,8 @@ Hi, I'm a 18-year-old French developer who loves cats and making games ✨. I st
 |-----------------|-----------------|
 | ![Anurag's GitHub stats][stats-img-light]{ loading=lazy } ![Anurag's GitHub stats][stats-img-dark]{ loading=lazy } | ![Top Langs][langs-img-light]{ loading=lazy } ![Top Langs][langs-img-dark]{ loading=lazy } |
 
-[stats-img-light]: https://vercelapi.blog.mathiol.com/api?username=matmat37000&show_icons=true&hide_border=true&theme=catppuccin_latte#only-light
+[stats-img-light]: https://vercelapi.blog.mathiol.com/api?username=matmat37000&show_icons=true&hide_border=true&title_color=40a02b&icon_color=40a02b&text_color=4c4f69&bg_color=00000000#only-light
 [stats-img-dark]: https://vercelapi.blog.mathiol.com/api?username=matmat37000&show_icons=true&hide_border=true&title_color=a6da95&icon_color=a6da95&text_color=b8c0e0&bg_color=00000000#only-dark
 
-[langs-img-light]: https://vercelapi.blog.mathiol.com/api/top-langs/?username=matmat37000&hide=javascript,css,scss,html,groovy&hide_border=true&langs_count=6&layout=compact&theme=catppuccin_latte#only-light
+[langs-img-light]: https://vercelapi.blog.mathiol.com/api/top-langs/?username=matmat37000&hide=javascript,css,scss,html,groovy&hide_border=true&langs_count=6&layout=compact&title_color=40a02b&icon_color=40a02b&text_color=4c4f69&bg_color=00000000#only-light
 [langs-img-dark]: https://vercelapi.blog.mathiol.com/api/top-langs/?username=matmat37000&hide=javascript,css,scss,html,groovy&hide_border=true&langs_count=6&layout=compact&title_color=a6da95&icon_color=a6da95&text_color=b8c0e0&bg_color=00000000#only-dark
