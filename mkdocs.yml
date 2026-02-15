@@ -42,6 +42,7 @@ theme:
     - search.suggest
     - search.highlight
     - toc.follow
+    - content.tooltips
 
 # Pages in nav bar
 nav:
@@ -54,11 +55,15 @@ nav:
 plugins:
   - blog
   - search
+  - macros:
+      include_yaml:
+        - variables.yml
 extra:
   generator: false
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/matmat37000
+      link: https://github.com/matmat37000 
+
 markdown_extensions:
   - toc:
       permalink: true
@@ -66,3 +71,4 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys
