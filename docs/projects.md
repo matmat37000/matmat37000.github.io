@@ -10,6 +10,7 @@ Here you can find a list of all my projects. Private / unreleased projects will 
 
 | Project                                               | Time | Status            | Description                                                                                                                                                                 |
 | ----------------------------------------------------- | ---- | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [rotating_buffer.h](#rotating_bufferh)                | 2026 | Finished          | A single-header library for C/C++ to create rotating buffer.                                                                                                                |
 | [cpp-tic-tac-toe](#cpp-tic-tac-toe)                   | 2026 | Finished          | This is a small project written in C++ with CMake to learn how to use CMake and to refresh my memory on how to code in C++.                                                 |
 | [voxy-backport](#voxy-backport)                       | 2026 | On going          | This project is a backport of a Minecraft mod to 1.20.1 from 1.21.10+. Not finished yet. (Java)                                                                             |
 | [MLG](#mlg)                                           | 2025 | On going (paused) | **MLG** (**M**LG **L**oader for **G**odot) is a tool that enables users to load custom DLLs and PCK files into games built with Godot. (C#)                                 |
@@ -18,28 +19,22 @@ Here you can find a list of all my projects. Private / unreleased projects will 
 | SuS Museum {{ repo_private_icon }}                    | 2024 | On going (paused) | Game I developing with a friends. Not released wet.<br>Demo will be available on [Github - CheeseOnBaguetteGameStudio](https://github.com/CheeseOnBaguetteGameStudio). (C#) |
 | [YuzuToolbox](https://github.com/ZachAR3/YuzuToolbox) | 2024 | Contributor       | A GUI for installing and updating yuzu early access, in addition to some management tools and a mod manager. Written in C# with Godot Engine.                               |
 
-## MLG
-{{ github_link('matmat37000',  'MLG') }}
-{{ github_top_language('matmat37000',  'MLG') }}
-{{ github_repo_licence('matmat37000',  'MLG') }}
+## rotating_buffer.h
+{{ github_link('matmat37000',  'rotating_buffer.h') }}
+{{ github_top_language('matmat37000',  'rotating_buffer.h') }}
+{{ github_repo_licence('matmat37000',  'rotating_buffer.h') }}
 
-I'm in love with modding and one of my first modding projects was on a Unity game with `BepInEx` and `Harmony`. Then, I wanted to have `Harmony` in my game engine of choice, Godot, to allow people to mod my game with ease since I'm using C# and not GDScript, for which a mod loader already exists. **MLG** was born after some digging into the way Godot loads C# code and finding where I can inject my own logic.
+This is a try to make a rotating buffer in C++, but while working on it, I discovered single header library. I thought that as this project is really small, why not make it a single header library.
 
-### How it works
-The way it works is by hijacking the game's own C# generated DLL to load all my code from there. To accomplish this, I made an installer that copies the game DLL into another file, then it copies over the original with its own custom DLL with the same signature and entry point.  
-From there, when Godot loads the DLL, I execute my own logic, then load the original game's DLL that we copied earlier into another scope to avoid conflicts with the DLL signature, and finally I call the original code to finish initializing Godot's C# runtime.
+The way the rotating buffer works is by rewriting on itself using two pointers. It use $n + 1$ memory block, $n$ for the actual data and another one for the rotating part. When adding an element, it moves by one (looping if needed) the *end pointer*, writes the new value and then moves by one the *start pointer*. The block with no pointer pointing on it is the place where it will be written when adding an element.
 
-For the moment, I can load custom scripts but the project isn't finished yet and needs more features to be usable by anyone.
-
----
-This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
-
+A custom `get` function has been made to get data as if it were a normal buffer.
 ## cpp-tic-tac-toe
 {{ github_link('matmat37000',  'cpp-tic-tac-toe') }}
 {{ github_top_language('matmat37000',  'cpp-tic-tac-toe') }}
 {{ github_repo_licence('matmat37000',  'cpp-tic-tac-toe') }}
 
-This is a small, cross-platform project to refresh my memory on how to code in C++ and to set up a project with CMake. It first started as a small personal project but I decided to make it clean and to do the job to the end.
+This is a small, cross-platform project to refresh my memory on how to code in C++ and to set up a project with CMake. It first started as a small personal project, but I decided to make it clean and to do the job to the end.
 
 It's a simple Tic Tac Toe fully in the terminal with a history of each move. The code is separated into modules, one for the matrix, one for the game, and the main which is responsible for the game loop. Each module (except the main) is composed of one `cpp` file containing the implementation and one `hpp` with the declaration, with its own library in the `CMakeLists.txt`.
 
@@ -68,6 +63,22 @@ I'm currently still replacing each piece of code from Mojang mappings to the Yar
 
 ---
 This project is under [MCRcortex licence :material-copyright:](https://github.com/matmat37000/voxy-backport?tab=License-1-ov-file) (Original creator).
+
+## MLG
+{{ github_link('matmat37000',  'MLG') }}
+{{ github_top_language('matmat37000',  'MLG') }}
+{{ github_repo_licence('matmat37000',  'MLG') }}
+
+I'm in love with modding and one of my first modding projects was on a Unity game with `BepInEx` and `Harmony`. Then, I wanted to have `Harmony` in my game engine of choice, Godot, to allow people to mod my game with ease since I'm using C# and not GDScript, for which a mod loader already exists. **MLG** was born after some digging into the way Godot loads C# code and finding where I can inject my own logic.
+
+### How it works
+The way it works is by hijacking the game's own C# generated DLL to load all my code from there. To accomplish this, I made an installer that copies the game DLL into another file, then it copies over the original with its own custom DLL with the same signature and entry point.  
+From there, when Godot loads the DLL, I execute my own logic, then load the original game's DLL that we copied earlier into another scope to avoid conflicts with the DLL signature, and finally I call the original code to finish initializing Godot's C# runtime.
+
+For the moment, I can load custom scripts but the project isn't finished yet and needs more features to be usable by anyone.
+
+---
+This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
 ## microbits-cars
 {{ github_link('matmat37000',  'microbits-cars') }}

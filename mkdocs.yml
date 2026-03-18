@@ -3,9 +3,15 @@ site_name: Mathiol
 site_url: https://blog.mathiol.com/
 site_author: Bordier-Aupy Mathieu
 
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
 # Theming
 extra_css:
   - stylesheets/extra.css
+  - https://unpkg.com/katex@0/dist/katex.min.css
 
 theme:
   name: material
@@ -72,3 +78,5 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.keys
+  - pymdownx.arithmatex:
+      generic: true
