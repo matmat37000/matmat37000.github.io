@@ -29,6 +29,9 @@ This is a try to make a rotating buffer in C++, but while working on it, I disco
 The way the rotating buffer works is by rewriting on itself using two pointers. It use $n + 1$ memory block, $n$ for the actual data and another one for the rotating part. When adding an element, it moves by one (looping if needed) the *end pointer*, writes the new value and then moves by one the *start pointer*. The block with no pointer pointing on it is the place where it will be written when adding an element.
 
 A custom `get` function has been made to get data as if it were a normal buffer.
+
+---
+This project is licensed under the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.html).
 ## cpp-tic-tac-toe
 {{ github_link('matmat37000',  'cpp-tic-tac-toe') }}
 {{ github_top_language('matmat37000',  'cpp-tic-tac-toe') }}
