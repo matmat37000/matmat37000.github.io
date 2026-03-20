@@ -30,8 +30,12 @@ The way the rotating buffer works is by rewriting on itself using two pointers. 
 
 A custom `get` function has been made to get data as if it were a normal buffer.
 
+![Rotating Buffer Demo](/assets/rotating-buffer-demo-dark.svg#only-dark){ loading=lazy }
+![Rotating Buffer Demo](/assets/rotating-buffer-demo-white.svg#only-light){ loading=lazy }
+
 ---
 This project is licensed under the [GNU Lesser General Public License](https://www.gnu.org/licenses/lgpl-3.0.html).
+
 ## cpp-tic-tac-toe
 {{ github_link('matmat37000',  'cpp-tic-tac-toe') }}
 {{ github_top_language('matmat37000',  'cpp-tic-tac-toe') }}
