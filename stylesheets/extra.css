@@ -1,0 +1,116 @@
+[data-md-color-scheme="catppuccin-latte"] {
+    /* Color hue */
+    --md-hue: 109deg;
+
+    /* Primary color shades */
+    --md-primary-fg-color: #40a02b; /* Green */
+    --md-primary-fg-color--light: #49af3d; /* Bright Green (ANSI) */
+    --md-primary-fg-color--dark: #40a02b;
+    --md-primary-bg-color: #eff1f5; /* Base */
+    --md-primary-bg-color--light: rgba(239, 241, 245, 0.7);
+
+    /* Accent color shades */
+    --md-accent-fg-color: #77cc6d; /* Green */
+    --md-accent-fg-color--transparent: rgba(64, 160, 43, 0.1);
+    --md-accent-bg-color: #eff1f5; /* Base */
+    --md-accent-bg-color--light: rgba(239, 241, 245, 0.7);
+
+    /* Default color shades */
+    --md-default-fg-color: #4c4f69; /* Text */
+    --md-default-fg-color--light: #5c5f77; /* Subtext 1 */
+    --md-default-fg-color--lighter: #6c6f85; /* Subtext 0 */
+    --md-default-fg-color--lightest: rgba(124, 127, 147, 0.1); /* Overlay 2 */
+    --md-default-bg-color: #eff1f5; /* Base */
+    --md-default-bg-color--light: #e6e9ef; /* Mantle */
+    --md-default-bg-color--lighter: #dce0e8; /* Crust */
+
+    /* Additional overrides */
+    --md-code-fg-color: #4c4f69; /* Text */
+    --md-code-bg-color: #e6e9ef; /* Mantle */
+    --md-typeset-color: #4c4f69; /* Text */
+    --md-typeset-a-color: #40a02b; /* Green (Links) */
+
+    /* Admonition/Warning */
+    --md-admonition-fg-color: #4c4f69; /* Text */
+    --md-admonition-bg-color: #eff1f5; /* Base */
+    --md-warning-fg-color: #4c4f69;
+    --md-warning-bg-color: #df8e1d; /* Yellow for warnings */
+
+    /* Footer color shades */
+    --md-footer-fg-color: #eff1f5; /* Base text on green bg */
+    --md-footer-fg-color--light: rgba(239, 241, 245, 0.7);
+    --md-footer-fg-color--lighter: rgba(239, 241, 245, 0.3);
+    --md-footer-bg-color: #4c4f69; /* Text/Dark neutral for footer */
+    --md-footer-bg-color--dark: #dce0e8; /* Crust */
+
+    /* Indicate browser light mode */
+    color-scheme: light;
+
+    /* Hide image */
+    img[src$="#only-dark"],
+    img[src$="#gh-dark-mode-only"] {
+        display: none;
+    }
+}
+
+[data-md-color-scheme="catppuccin-macchiato"] {
+    /* Color hue */
+    --md-hue: 110deg;
+
+    /* Primary color shades */
+    --md-primary-fg-color: #a6da95; /* Green */
+    --md-primary-fg-color--light: #b8e2a9; /* Bright Green (ANSI approximation) */
+    --md-primary-fg-color--dark: #a6da95;
+    --md-primary-bg-color: #24273a; /* Base */
+    --md-primary-bg-color--light: rgba(36, 39, 58, 0.7);
+
+    /* Accent color shades */
+    --md-accent-fg-color: #a6da95; /* Green */
+    --md-accent-fg-color--transparent: rgba(166, 218, 149, 0.1);
+    --md-accent-bg-color: #24273a; /* Base */
+    --md-accent-bg-color--light: rgba(36, 39, 58, 0.7);
+
+    /* Default color shades */
+    --md-default-fg-color: #cad3f5; /* Text */
+    --md-default-fg-color--light: #b8c0e0; /* Subtext 1 */
+    --md-default-fg-color--lighter: #a5adcb; /* Subtext 0 */
+    --md-default-fg-color--lightest: rgba(145, 153, 184, 0.1); /* Overlay 2 */
+    --md-default-bg-color: #24273a; /* Base */
+    --md-default-bg-color--light: #1e2030; /* Mantle */
+    --md-default-bg-color--lighter: #181926; /* Crust */
+
+    /* Additional overrides */
+    --md-code-fg-color: #cad3f5; /* Text */
+    --md-code-bg-color: #1e2030; /* Mantle */
+    --md-typeset-color: #cad3f5; /* Text */
+    --md-typeset-a-color: #a6da95; /* Green (Links) */
+
+    /* Admonition/Warning */
+    --md-admonition-fg-color: #cad3f5; /* Text */
+    --md-admonition-bg-color: #24273a; /* Base */
+    --md-warning-fg-color: #181926; /* Dark text for contrast on yellow */
+    --md-warning-bg-color: #eed49f; /* Yellow */
+
+    /* Footer color shades */
+    --md-footer-fg-color: #cad3f5; /* Text */
+    --md-footer-fg-color--light: rgba(202, 211, 245, 0.7);
+    --md-footer-fg-color--lighter: rgba(202, 211, 245, 0.3);
+    --md-footer-bg-color: #1e2030; /* Mantle */
+    --md-footer-bg-color--dark: #181926; /* Crust */
+
+    /* Indicate browser dark mode */
+    color-scheme: dark;
+
+    /* Hide image */
+    img[src$="#only-light"],
+    img[src$="#gh-light-mode-only"] {
+        display: none;
+    }
+}
+.md-header__button {
+    width: auto;
+    
+    img {
+        border-radius: 100%;
+    }
+}
